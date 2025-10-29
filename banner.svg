@@ -1,3 +1,31 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AmirlanSeit/Astropolis/main/banner.svg" alt="Astropolis Banner" width="100%">
-</p>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+  <defs>
+    <linearGradient id="spaceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a043c"/>
+      <stop offset="50%" stop-color="#2e1a7e"/>
+      <stop offset="100%" stop-color="#6124e8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#8ecbff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0a043c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="320" fill="url(#spaceGradient)"/>
+  <circle cx="640" cy="160" r="180" fill="url(#glow)" opacity="0.35"/>
+  <text x="50%" y="50%" text-anchor="middle" font-size="96" font-family="Orbitron, sans-serif"
+        fill="#dfe9ff" font-weight="600" dominant-baseline="middle" letter-spacing="4">
+    Astropolis
+  </text>
+  <text x="50%" y="68%" text-anchor="middle" font-size="20" font-family="Montserrat, sans-serif"
+        fill="#b1b9ff" opacity="0.7">
+    High-Gravity Autonomous Space Colony
+  </text>
+  <g opacity="0.2">
+    <circle cx="120" cy="80" r="2" fill="#ffffff"/>
+    <circle cx="340" cy="220" r="2" fill="#ffffff"/>
+    <circle cx="820" cy="120" r="2" fill="#ffffff"/>
+    <circle cx="1040" cy="60" r="2" fill="#ffffff"/>
+    <circle cx="980" cy="260" r="2" fill="#ffffff"/>
+    <circle cx="420" cy="40" r="2" fill="#ffffff"/>
+  </g>
+</svg>
