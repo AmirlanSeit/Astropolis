@@ -1,4 +1,6 @@
-<img src="https://raw.githubusercontent.com/AmirlanSeit/Astropolis/main/banner.svg" alt="Astropolis Banner" width="100%">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AmirlanSeit/Astropolis/main/banner.svg?sanitize=true" alt="Astropolis Banner" width="100%">
+</p>
 # Astropolis
 
 **Astropolis** is a high-gravity, autonomous space colony concept designed for long-term human settlement in the Kuiper Belt (≈40 AU from the Sun).
